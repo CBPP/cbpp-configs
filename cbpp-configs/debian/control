@@ -1,0 +1,13 @@
+Source: cbpp-configs
+Section: misc
+Priority: extra
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://crunchbangplusplus.org/
+
+Package: cbpp-configs
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: config files for CBPP
+ Various configuration files for use with CBPP.

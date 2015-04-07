@@ -1,0 +1,22 @@
+#!/bin/bash
+#CrunchBang User Set-up
+
+
+	mkdir /home/$USER/backup
+	mkdir /home/$USER/bin
+	mkdir /home/$USER/documents
+	mkdir /home/$USER/downloads
+	mkdir /home/$USER/images
+	mkdir /home/$USER/images/wallpapers
+	mkdir /home/$USER/music
+	mkdir /home/$USER/tmp
+	mkdir /home/$USER/videos
+    rpl -q 'REPLACEME' $USER /home/$USER/.gtk-bookmarks > /dev/null 2>&1
+
+    ln -s /usr/share/backgrounds /home/$USER/images/wallpapers/shared
+
+	rpl -q '~/.cbpp-user-setup &' '##~/.cbpp-user-setup &' /home/$USER/.config/openbox/autostart > /dev/null 2>&1
+	
+	rm ~/.cbpp-user-setup
+
+exit 0

@@ -1,0 +1,243 @@
+{
+   "browser": {
+      "custom_chrome_frame": false,
+      "window_placement": {
+         "bottom": 774,
+         "left": 68,
+         "maximized": false,
+         "right": 1118,
+         "top": 29,
+         "work_area_bottom": 800,
+         "work_area_left": 0,
+         "work_area_right": 1280,
+         "work_area_top": 29
+      }
+   },
+   "countryid_at_install": 18242,
+   "default_apps_install_state": 1,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "instant_url": "{google:baseURL}webhp?{google:RLZ}sourceid=chrome-instant&{google:instantFieldTrialGroupParameter}ie={inputEncoding}{google:instantEnabledParameter}{searchTerms}",
+      "keyword": "google.com",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}{google:searchFieldtrialParameter}{google:instantFieldTrialGroupParameter}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?{google:searchFieldtrialParameter}{google:instantFieldTrialGroupParameter}client=chrome&hl={language}&q={searchTerms}"
+   },
+   "dns_prefetching": {
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12979783756620846"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "app_launcher_ordinal": "n",
+            "page_ordinal": "n"
+         },
+         "fkjongoeciifbagjhbjaemcajgimefed": {
+            "active_permissions": {
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "scriptable_host": [ "\u003Call_urls\u003E" ]
+            },
+            "install_time": "12979765737646185",
+            "location": 1,
+            "manifest": {
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "css": [ "cbpp-scrollbars.css" ],
+                  "matches": [ "\u003Call_urls\u003E" ]
+               } ],
+               "description": "Scrollbars for CrunchBangPlusPlus Linux themes.",
+               "icons": {
+                  "128": "icon128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgFWk9Mr9mwzYCdhLLL3VHaLbEzQqRh7n/llu4DM1RPfauRPNuD36wdf5FbeXSxw1dakR0lbToT7bdpn4PFGltv2OIwBW62ev7fj9nNJfUR8ZZu9iQdL7FJaYF5nHOZaAEAoivscdgTuBqQkMTUDubr13rK1HJPjLrJI5jLgFaOQIDAQAB",
+               "name": "CBPP Scrollbars",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.0"
+            },
+            "path": "fkjongoeciifbagjhbjaemcajgimefed/1.0_0",
+            "state": 1
+         }
+      },
+      "theme": {
+         "id": "",
+         "use_system": true
+      }
+   },
+   "homepage": "https://www.crunchbangplusplus.org",
+   "homepage_is_newtabpage": true,
+   "http_throttling": {
+      "enabled": true
+   },
+   "instant": {
+      "enabled_time": "12979765656949533"
+   },
+   "net": {
+      "http_server_properties": {
+         "checkout.google.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "fls.doubleclick.net:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "fonts.googleapis.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "googleads.g.doubleclick.net:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "lh6.googleusercontent.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "plusone.google.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "ssl.google-analytics.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "ssl.gstatic.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "www.google.co.uk:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         },
+         "www.google.com:443": {
+            "settings": [ {
+               "id": 4,
+               "value": 100
+            } ],
+            "supports_spdy": true
+         }
+      }
+   },
+   "ntp": {
+      "app_page_names": [ "Apps" ],
+      "promo_build": 11,
+      "promo_closed": false,
+      "promo_end": 1333353540.0,
+      "promo_feature_mask": 0,
+      "promo_group": 78,
+      "promo_group_max": 99,
+      "promo_group_timeslice": 0,
+      "promo_is_logged_in_to_plus": false,
+      "promo_line": "\u003Cb\u003ENew!\u003C/b\u003E Browse the web with twice the mice. \u003Ca href=\"http://google.com/chrome/multitask\"\u003ETry Chrome Multitask Mode\u003C/a\u003E",
+      "promo_platform": 15,
+      "promo_resource_cache_update": "1335292061.959231",
+      "promo_start": 1333267260.0,
+      "promo_views": 0,
+      "promo_views_max": 15
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "enabled_nacl": true,
+      "last_internal_directory": "/usr/lib/chromium",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Remoting Viewer",
+         "path": "internal-remoting-viewer",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Remoting Viewer"
+      }, {
+         "enabled": true,
+         "name": "Shockwave Flash",
+         "path": "/usr/lib/flashplugin-nonfree/libflashplayer.so",
+         "version": "11.2 r202"
+      }, {
+         "enabled": true,
+         "name": "Flash"
+      }, {
+         "enabled": true,
+         "name": "IcedTea-Web Plugin (using IcedTea-Web 1.2 (1.2-2))",
+         "path": "/usr/lib/jvm/java-6-openjdk-i386/jre/lib/i386/IcedTeaPlugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "IcedTea-Web Plugin (using IcedTea-Web 1.2 (1.2-2))"
+      }, {
+         "enabled": true,
+         "name": "iTunes Application Detector",
+         "path": "/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "iTunes Application Detector"
+      } ]
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true,
+      "name": "First user"
+   },
+   "session": {
+      "restore_on_startup": 4,
+      "urls_to_restore_on_startup": [ "https://crunchbangplusplus.org/" ]
+   },
+   "webkit": {
+      "webprefs": {
+         "global": {
+            "default_fixed_font_size": 13,
+            "default_font_size": 16,
+            "fixed_font_family": "Monospace",
+            "sansserif_font_family": "Sans",
+            "serif_font_family": "Serif"
+         }
+      }
+   }
+}
