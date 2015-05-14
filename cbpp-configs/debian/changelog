@@ -1,3 +1,9 @@
+cbpp-configs (1.1) unstable; urgency=low
+
+  * Added dmenu list suggestion population (credit xa2rd)
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 17 Feb 2015 23:57:43 -0600
+
 cbpp-configs (1.0) unstable; urgency=low
 
   * Modified openbox/menu.xml rc.xml, geany.conf, and gmrunrc to be terminal-agnostic (credit nfultz)
