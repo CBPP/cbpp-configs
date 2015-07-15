@@ -1,6 +1,6 @@
 ## Openbox autostart.sh
 ## ====================
-## When you login to your CrunchBang Openbox session, this autostart script 
+## When you login to your CrunchBang++ Openbox session, this autostart script
 ## will be executed to set-up your environment and launch any applications
 ## you want to run at startup.
 ##
@@ -13,7 +13,7 @@
 ##
 ## If you do something cool with your autostart script and you think others
 ## could benefit from your hack, please consider sharing it at:
-## http://crunchbang.org/forums/
+## https://www.reddit.com/r/crunchbangplusplus
 ##
 ## Have fun & happy CrunchBangin'! :)
 
