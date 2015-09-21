@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<openbox_menu xmlns="http://openbox.org/"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://openbox.org/
-                file:///usr/share/openbox/menu.xsd">
-
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
 	<menu id="root-menu" label="Openbox 3">
 		<item label="Run Program">
 			<action name="Execute">
@@ -16,194 +11,148 @@
 		<separator/>
 		<item label="Terminal">
 			<action name="Execute">
-				<command>
+				<execute>
 					x-terminal-emulator
-				</command>
+				</execute>
 			</action>
 		</item>
 		<item label="Web Browser">
 			<action name="Execute">
-				<command>
+				<execute>
 					x-www-browser
-				</command>
+				</execute>
 			</action>
 		</item>
 		<item label="File Manager">
 			<action name="Execute">
-				<command>
-					thunar
-				</command>
+				<execute>thunar</execute>
 			</action>
 		</item>
 		<item label="Text Editor">
 			<action name="Execute">
-				<command>
-					geany
-				</command>
+				<execute>geany</execute>
 			</action>
 		</item>
 		<item label="Media Player">
 			<action name="Execute">
-				<command>
-					vlc
-				</command>
+				<execute>vlc</execute>
 			</action>
 		</item>
 		<separator/>
 		<menu id="accessories" label="Accessories">
-		    <item label="Catfish File Search">
+			<item label="Catfish File Search">
 				<action name="Execute">
-					<command>
-						catfish
-					</command>
+					<execute>catfish</execute>
 				</action>
 			</item>
-		    <item label="Archive Manager">
+			<item label="Archive Manager">
 				<action name="Execute">
-					<command>
-						file-roller
-					</command>
+					<execute>file-roller</execute>
 				</action>
 			</item>
 			<item label="Geany Text Editor">
 				<action name="Execute">
-					<command>
-						geany
-					</command>
+					<execute>geany</execute>
 				</action>
 			</item>
 			<item label="Task Manager (htop)">
 				<action name="Execute">
-					<command>x-terminal-emulator -e htop</command>
+					<execute>x-terminal-emulator -e htop</execute>
 				</action>
 			</item>
 			<item label="Terminal">
 				<action name="Execute">
-					<command>
-						x-terminal-emulator
-					</command>
+					<execute>x-terminal-emulator</execute>
 				</action>
 			</item>
 			<item label="Thunar File Manager">
 				<action name="Execute">
-					<command>
-						thunar
-					</command>
+					<execute>thunar</execute>
 				</action>
 			</item>
 			<item label="Thunar File Manager (root)">
 				<action name="Execute">
-					<command>
-						gksudo thunar
-					</command>
+					<execute>gksudo thunar</execute>
 				</action>
 			</item>
 		</menu>
 		<menu id="graphics" label="Graphics">
 			<item label="GIMP">
 				<action name="Execute">
-					<command>
-						gimp
-					</command>
+					<execute>gimp</execute>
 				</action>
 			</item>
-		    <item label="Viewnior Image Viewer">
+			<item label="Viewnior Image Viewer">
 				<action name="Execute">
-					<command>
-						viewnior
-					</command>
+					<execute>viewnior</execute>
 				</action>
 			</item>
-		    <menu id="graphicsScreenshots" label="Take Screenshot">
+			<menu id="graphicsScreenshots" label="Take Screenshot">
 				<item label="Screenshooter">
 					<action name="Execute">
-						<command>
-							xfce4-screenshooter
-						</command>
+						<execute>xfce4-screenshooter</execute>
 					</action>
 				</item>
 				<separator label="scrot"/>
 				<item label="Now">
 					<action name="Execute">
-						<command>
-							scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp; viewnior ~/images/$f'
-						</command>
+						<execute>scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp;amp; viewnior ~/images/$f'</execute>
 					</action>
 				</item>
 				<item label="In 5 Seconds...">
 					<action name="Execute">
-						<command>
-							scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp; viewnior ~/images/$f'
-						</command>
+						<execute>scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp;amp; viewnior ~/images/$f'</execute>
 					</action>
 				</item>
 				<item label="In 10 Seconds...">
 					<action name="Execute">
-						<command>
-							scrot -d 10 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp; viewnior ~/images/$f'
-						</command>
+						<execute>scrot -d 10 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp;amp; viewnior ~/images/$f'</execute>
 					</action>
 				</item>
 				<item label="Selected Area... (click &amp; drag mouse)">
 					<action name="Execute">
-						<command>
-							scrot -s '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp; viewnior ~/images/$f'
-						</command>
+						<execute>scrot -s '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/images/ &amp;amp; viewnior ~/images/$f'</execute>
 					</action>
 				</item>
 			</menu>
 		</menu>
 		<menu id="multimedia" label="Multimedia">
-		    <item label="VLC Media Player">
+			<item label="VLC Media Player">
 				<action name="Execute">
-					<command>
-						vlc
-					</command>
+					<execute>vlc</execute>
 				</action>
 			</item>
 			<item label="Volume Control">
 				<action name="Execute">
-					<command>
-						pavucontrol
-					</command>
+					<execute>pavucontrol</execute>
 				</action>
 			</item>
 			<item label="Xfburn">
 				<action name="Execute">
-					<command>
-						xfburn
-					</command>
+					<execute>xfburn</execute>
 				</action>
 			</item>
 		</menu>
 		<menu id="network" label="Network">
-		    <menu execute="cbpp-x-www-browser-pipemenu" id="wwwbrowsers" label="WWW Browsers"/>
+			<menu execute="cbpp-x-www-browser-pipemenu" id="wwwbrowsers" label="WWW Browsers"/>
 			<item label="Filezilla">
 				<action name="Execute">
-					<command>
-						filezilla
-					</command>
+					<execute>filezilla</execute>
 				</action>
 			</item>
 			<item label="Transmission BitTorrent Client">
 				<action name="Execute">
-					<command>
-						transmission-gtk
-					</command>
+					<execute>transmission-gtk</execute>
 				</action>
 			</item>
 			<item label="HexChat IRC Client">
 				<action name="Execute">
-					<command>
-						hexchat
-					</command>
+					<execute>hexchat</execute>
 				</action>
 			</item>
 			<item label="Remote Filesystems">
 				<action name="Execute">
-					<command>
-						gigolo
-					</command>
+					<execute>gigolo</execute>
 				</action>
 			</item>
 			<menu execute="cbpp-remote-desktop-pipemenu" id="remotedesktop" label="Remote Desktop"/>
@@ -212,40 +161,30 @@
 			<menu execute="cbpp-dropbox-pipemenu" id="dropbox" label="Dropbox"/>
 		</menu>
 		<menu id="office" label="Office">
-		    <menu id="libreoffice" label="LibreOffice" execute="cbpp-libreoffice-pipemenu" />
-		    <item label="Google Docs">
+			<menu execute="cbpp-libreoffice-pipemenu" id="libreoffice" label="LibreOffice"/>
+			<item label="Google Docs">
 				<action name="Execute">
-					<command>
-						x-www-browser https://drive.google.com/
-					</command>
+					<execute>x-www-browser https://drive.google.com/</execute>
 				</action>
 			</item>
 			<item label="AbiWord Word Processor">
 				<action name="Execute">
-					<command>
-						abiword
-					</command>
+					<execute>abiword</execute>
 				</action>
 			</item>
 			<item label="Gnumeric Spreadsheet">
 				<action name="Execute">
-					<command>
-						gnumeric
-					</command>
+					<execute>gnumeric</execute>
 				</action>
 			</item>
 			<item label="Calculator">
 				<action name="Execute">
-					<command>
-						galculator
-					</command>
+					<execute>galculator</execute>
 				</action>
 			</item>
 			<item label="Atril PDF Viewer">
 				<action name="Execute">
-					<command>
-						atril
-					</command>
+					<execute>atril</execute>
 				</action>
 			</item>
 		</menu>
@@ -258,110 +197,82 @@
 			<menu id="conkyconfig" label="Conky">
 				<item label="Edit .conkyrc">
 					<action name="Execute">
-						<command>
-							geany ~/.conkyrc
-						</command>
+						<execute>geany ~/.conkyrc</execute>
 					</action>
 				</item>
 				<item label="Restart Conky">
 					<action name="Execute">
-						<command>
-							conkywonky
-						</command>
+						<execute>conkywonky</execute>
 					</action>
 				</item>
 				<separator label="Help?"/>
 				<item label="man page">
 					<action name="Execute">
-						<command>
-							x-terminal-emulator -e man conky
-						</command>
+						<execute>x-terminal-emulator -e man conky</execute>
 					</action>
 				</item>
 				<item label="Documentation">
 					<action name="Execute">
-						<command>
-							x-www-browser http://conky.sourceforge.net/documentation.html
-						</command>
+						<execute>x-www-browser http://conky.sourceforge.net/documentation.html</execute>
 					</action>
 				</item>
 			</menu>
 			<menu id="dmenuconfig" label="dmenu">
 				<item label="Edit start-up script">
 					<action name="Execute">
-						<command>
-							geany ~/.config/dmenu/dmenu-bind.sh
-						</command>
+						<execute>geany ~/.config/dmenu/dmenu-bind.sh</execute>
 					</action>
 				</item>
 				<separator label="Help?"/>
 				<item label="man page">
 					<action name="Execute">
-						<command>
-							x-terminal-emulator -e man dmenu
-						</command>
+						<execute>x-terminal-emulator -e man dmenu</execute>
 					</action>
 				</item>
 			</menu>
 			<menu id="gmrunconfig" label="gmrun">
 				<item label="Edit config file">
 					<action name="Execute">
-						<command>
-							geany ~/.gmrunrc
-						</command>
+						<execute>geany ~/.gmrunrc</execute>
 					</action>
 				</item>
 				<separator label="Help?"/>
 				<item label="man page">
 					<action name="Execute">
-						<command>
-							x-terminal-emulator -e man gmrun
-						</command>
+						<execute>x-terminal-emulator -e man gmrun</execute>
 					</action>
 				</item>
 			</menu>
 			<menu id="obConfig" label="Openbox">
 				<item label="Edit menu.xml">
 					<action name="Execute">
-						<command>
-							geany ~/.config/openbox/menu.xml
-						</command>
+						<execute>geany ~/.config/openbox/menu.xml</execute>
 					</action>
 				</item>
 				<item label="Edit rc.xml">
 					<action name="Execute">
-						<command>
-							geany ~/.config/openbox/rc.xml
-						</command>
+						<execute>geany ~/.config/openbox/rc.xml</execute>
 					</action>
 				</item>
 				<item label="Edit autostart">
 					<action name="Execute">
-						<command>
-							geany ~/.config/openbox/autostart
-						</command>
+						<execute>geany ~/.config/openbox/autostart</execute>
 					</action>
 				</item>
 				<separator/>
 				<item label="GUI Menu Editor">
 					<action name="Execute">
-						<command>
-							obmenu
-						</command>
+						<execute>obmenu</execute>
 					</action>
 				</item>
 				<item label="GUI Applications Settings Editor">
 					<action name="Execute">
-						<command>
-							obapps
-						</command>
+						<execute>obapps</execute>
 					</action>
 				</item>
 				<item label="GUI Config Tool">
 					<action name="Execute">
-						<command>
-							obconf
-						</command>
+						<execute>obconf</execute>
 					</action>
 				</item>
 				<separator/>
@@ -375,108 +286,82 @@
 			<menu id="tint2config" label="tint2">
 				<item label="Edit config file">
 					<action name="Execute">
-						<command>
-							geany ~/.config/tint2/tint2rc
-						</command>
+						<execute>geany ~/.config/tint2/tint2rc</execute>
 					</action>
 				</item>
-                <item label="Restart tint2">
+				<item label="Restart tint2">
 					<action name="Execute">
-						<command>
-							tint2restart
-						</command>
+						<execute>tint2restart</execute>
 					</action>
 				</item>
 				<separator label="Help?"/>
 				<item label="man page">
 					<action name="Execute">
-						<command>
-							x-terminal-emulator -e man tint2
-						</command>
+						<execute>x-terminal-emulator -e man tint2</execute>
 					</action>
 				</item>
 				<item label="Online Help">
 					<action name="Execute">
-						<command>
-							x-www-browser http://code.google.com/p/tint2/wiki/Welcome
-						</command>
+						<execute>x-www-browser http://code.google.com/p/tint2/wiki/Welcome</execute>
 					</action>
 				</item>
 			</menu>
 			<menu id="DisplaySettings" label="Display Settings">
-			    <item label="ARandR Screen Layout Editor">
-				    <action name="Execute">
-					    <command>
-						    arandr
-					    </command>
-				    </action>
-			    </item>
-			    <separator label="Help?"/>
-			    <item label="man xrandr">
-				    <action name="Execute">
-					    <command>
-						    x-terminal-emulator -e man xrandr
-					    </command>
-				    </action>
-			    </item>
+				<item label="ARandR Screen Layout Editor">
+					<action name="Execute">
+						<execute>arandr</execute>
+					</action>
+				</item>
+				<separator label="Help?"/>
+				<item label="man xrandr">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e man xrandr</execute>
+					</action>
+				</item>
 			</menu>
 			<menu id="Notifications" label="Notifications">
 				<item label="settings">
 					<action name="Execute">
-						<command>xfce4-notifyd-config</command>
+						<execute>xfce4-notifyd-config</execute>
 					</action>
 				</item>
 			</menu>
 			<item label="Edit Default Applications">
 				<action name="Execute">
-					<command>
-						x-terminal-emulator -e sudo update-alternatives --all
-					</command>
+					<execute>x-terminal-emulator -e sudo update-alternatives --all</execute>
 				</action>
 			</item>
 			<item label="User Interface Settings">
 				<action name="Execute">
-					<command>
-						lxappearance
-					</command>
+					<execute>lxappearance</execute>
 				</action>
 			</item>
 			<item label="Power Management">
 				<action name="Execute">
-					<command>
-						mate-power-preferences
-					</command>
+					<execute>mate-power-preferences</execute>
 				</action>
 			</item>
-			<item label="Screensaver">
+			<item label="NewScreensaver">
 				<action name="Execute">
-					<command>
-						xscreensaver-demo
-					</command>
+					<execute>xscreensaver-demo</execute>
 				</action>
 			</item>
 			<item label="Choose Wallpaper">
 				<action name="Execute">
-					<command>
-						nitrogen ~/images/wallpapers/
-					</command>
+					<execute>nitrogen ~/images/wallpapers/</execute>
 				</action>
 			</item>
 		</menu>
 		<menu id="system" label="System">
-		    <menu execute="cbpp-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
-		    <item label="GParted">
+			<menu execute="cbpp-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
+			<item label="GParted">
 				<action name="Execute">
-					<command>
-						gksudo gparted
-					</command>
+					<execute>gksudo gparted</execute>
 				</action>
 			</item>
 			<item label="Synaptic Package Manager">
 				<action name="Execute">
-					<command>
-						gksudo synaptic
-					</command>
+					<execute>gksudo synaptic</execute>
 				</action>
 			</item>
 		</menu>
@@ -484,16 +369,12 @@
 		<separator/>
 		<item label="Lock Screen">
 			<action name="Execute">
-				<command>
-					xscreensaver-command -lock
-				</command>
+				<execute>xscreensaver-command -lock</execute>
 			</action>
 		</item>
 		<item label="Exit">
 			<action name="Execute">
-				<command>
-					cbpp-exit
-				</command>
+				<execute>cbpp-exit</execute>
 			</action>
 		</item>
 	</menu>
