@@ -1,3 +1,9 @@
+cbpp-configs (1.2) unstable; urgency=low
+
+  * Refactored Openbox menu.xml to fix obmenu parsing. --jlacroix82
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 17 Feb 2015 23:57:43 -0600
+
 cbpp-configs (1.1) unstable; urgency=low
 
   * Added dmenu list suggestion population (credit xa2rd)
