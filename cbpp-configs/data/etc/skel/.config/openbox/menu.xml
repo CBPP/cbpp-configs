@@ -341,7 +341,7 @@
 					<execute>mate-power-preferences</execute>
 				</action>
 			</item>
-			<item label="NewScreensaver">
+			<item label="Screensaver">
 				<action name="Execute">
 					<execute>xscreensaver-demo</execute>
 				</action>
