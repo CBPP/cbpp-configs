@@ -1,8 +1,14 @@
+cbpp-configs (1.3) unstable; urgency=low
+
+  * Url fixes and Openbox menu.xml typo fix --jlacroix82
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 23 Sept 2015 23:44:43 -0600
+
 cbpp-configs (1.2) unstable; urgency=low
 
   * Refactored Openbox menu.xml to fix obmenu parsing. --jlacroix82
 
- -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 17 Feb 2015 23:57:43 -0600
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Tue, 22 Sept 2015 23:57:43 -0600
 
 cbpp-configs (1.1) unstable; urgency=low
 
