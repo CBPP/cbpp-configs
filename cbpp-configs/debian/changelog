@@ -2,6 +2,7 @@ cbpp-configs (1.4) unstable; urgency=low
 
   * Switch power management back to xfce4-power-manager
   * Fixed duplicate nm-applet icon
+  * Launche xfce power manager from power settings in OB menu
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 26 June 2016 15:44:43 -0600
 
