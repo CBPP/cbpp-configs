@@ -1,0 +1,25 @@
+#!/bin/bash
+#CrunchBangPlusPlus User Set-up
+
+USER="$1"
+
+if [ ! -f "/home/$USER/.config/crunchbangplusplus/cb-setup" ]; then
+
+    cd /etc/skel
+    tar cpzf skel.tar.gz .
+    mv skel.tar.gz /home/$USER/skel.tar.gz
+    cd /home/$USER
+    tar xkpsf skel.tar.gz
+    rm skel.tar.gz
+
+    if [ -f "/home/$USER/.gtk-bookmarks" ]; then
+        rpl -q 'REPLACEME' $USER /home/$USER/.gtk-bookmarks > /dev/null 2>&1
+    fi
+    ln -s /usr/share/backgrounds /home/$USER/images/wallpapers/shared
+
+    touch /home/$USER/.config/crunchbangplusplus/cb-setup
+    chown -R $USER:$USER /home/$USER
+
+fi
+
+exit 0

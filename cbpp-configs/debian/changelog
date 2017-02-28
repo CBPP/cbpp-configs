@@ -1,6 +1,7 @@
 cbpp-configs (9.0) unstable; urgency=low
 
   * Nineing
+  * Move cbpp-slim contents here
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Mon, 27 Feb 2017 23:23:43 -0800
 
