@@ -39,7 +39,7 @@ tint2 \
 nm-applet &
 
 ## Volume keys daemon
-## xfce4-volumed &
+mate-volume-control-applet &
 
 ## Enable power management
 xfce4-power-manager &
