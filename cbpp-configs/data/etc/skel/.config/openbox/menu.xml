@@ -124,7 +124,7 @@
 			</item>
 			<item label="Volume Control">
 				<action name="Execute">
-					<execute>pavucontrol</execute>
+					<execute>mate-volume-control</execute>
 				</action>
 			</item>
 			<item label="Xfburn">
