@@ -12,7 +12,7 @@
 		<item label="Terminal">
 			<action name="Execute">
 				<execute>
-					x-terminal-emulator
+					terminator -u
 				</execute>
 			</action>
 		</item>
