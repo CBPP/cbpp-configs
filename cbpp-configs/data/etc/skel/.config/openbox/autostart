@@ -17,8 +17,8 @@
 ##
 ## Have fun & happy CrunchBangin'! :)
 
-## GNOME PolicyKit and Keyring
-eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+## LX PolicyKit
+lxpolkit &
 
 ## Set root window colour
 hsetroot -solid "#2E3436" &
