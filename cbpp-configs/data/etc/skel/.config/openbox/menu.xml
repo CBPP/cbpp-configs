@@ -338,7 +338,7 @@
 			</item>
 			<item label="Power Management">
 				<action name="Execute">
-					<execute>mate-power-preferences</execute>
+					<execute>xfce4-power-manager-settings</execute>
 				</action>
 			</item>
 			<item label="Screensaver">
