@@ -17,7 +17,7 @@
 ##
 ## Have fun & happy CrunchBangin'! :)
 
-## LXpolkit for elevated permissions
+## LX PolicyKit
 lxpolkit &
 
 ## Set root window colour
@@ -35,11 +35,11 @@ sleep 2s && \
 tint2 \
 ) &
 
-## Volume control for systray
-(sleep 2s && pnmixer) &
+## Start nm-applet for systray
+nm-applet &
 
 ## Volume keys daemon
-xfce4-volumed &
+mate-volume-control-applet &
 
 ## Enable power management
 xfce4-power-manager &

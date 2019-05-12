@@ -12,7 +12,7 @@
 		<item label="Terminal">
 			<action name="Execute">
 				<execute>
-					x-terminal-emulator
+					terminator -u
 				</execute>
 			</action>
 		</item>
@@ -124,7 +124,7 @@
 			</item>
 			<item label="Volume Control">
 				<action name="Execute">
-					<execute>pavucontrol</execute>
+					<execute>mate-volume-control</execute>
 				</action>
 			</item>
 			<item label="Xfburn">
