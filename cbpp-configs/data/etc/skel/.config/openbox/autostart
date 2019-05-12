@@ -38,14 +38,11 @@ tint2 \
 ## Volume control for systray
 (sleep 2s && pnmixer) &
 
-## Start nm-applet for systray
-nm-applet &
-
 ## Volume keys daemon
 xfce4-volumed &
 
 ## Enable power management
-mate-power-manager &
+xfce4-power-manager &
 
 ## Start Thunar Daemon
 thunar --daemon &
