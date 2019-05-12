@@ -1,3 +1,11 @@
+cbpp-configs (10.0) unstable; urgency=low
+
+  * Update package dependencies
+  * Update pbuilderrc
+  * Change GIMP config to not look horrible
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 14:03:43 -0800
+ 
 cbpp-configs (9.0) unstable; urgency=low
 
   * Nineing
