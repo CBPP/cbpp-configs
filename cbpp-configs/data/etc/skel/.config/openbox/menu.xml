@@ -72,7 +72,7 @@
 			</item>
 			<item label="Thunar File Manager (root)">
 				<action name="Execute">
-					<execute>gksudo thunar</execute>
+					<execute>cbpp-gksudo thunar</execute>
 				</action>
 			</item>
 		</menu>
@@ -356,12 +356,12 @@
 			<menu execute="cbpp-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
 			<item label="GParted">
 				<action name="Execute">
-					<execute>gksudo gparted</execute>
+					<execute>cbpp-gksudo gparted</execute>
 				</action>
 			</item>
 			<item label="Synaptic Package Manager">
 				<action name="Execute">
-					<execute>gksudo synaptic</execute>
+					<execute>cbpp-gksudo synaptic</execute>
 				</action>
 			</item>
 		</menu>
