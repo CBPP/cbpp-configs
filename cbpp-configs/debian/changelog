@@ -3,6 +3,7 @@ cbpp-configs (10.0) unstable; urgency=low
   * Update package dependencies
   * Update pbuilderrc
   * Change GIMP config to not look horrible
+  * Switch power management back to mate-power-manager
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 14:03:43 -0800
  
