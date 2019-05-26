@@ -42,7 +42,7 @@ nm-applet &
 mate-volume-control-applet &
 
 ## Enable power management
-mate-power-manager &
+xfce4-power-manager &
 
 ## Start Thunar Daemon
 thunar --daemon &
