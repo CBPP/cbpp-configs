@@ -1,3 +1,11 @@
+cbpp-configs (10.1) unstable; urgency=low
+
+  * Fix gksudo
+  * Fix terminator hotkeys
+  * Fix volume hotkeys
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 14:03:43 -0800
+
 cbpp-configs (10.0) unstable; urgency=low
 
   * Update package dependencies

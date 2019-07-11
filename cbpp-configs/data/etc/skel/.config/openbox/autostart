@@ -28,12 +28,9 @@ hsetroot -solid "#2E3436" &
 ## 2. compositor - start
 ## 3. sleep - give compositor time to start
 ## 4. tint2 panel
-(\
-nitrogen --restore && \
-cbpp-compositor --start && \
-sleep 2s && \
-tint2 \
-) &
+nitrogen --restore &
+cbpp-compositor --start &
+tint2 &
 
 ## Start nm-applet for systray
 nm-applet &

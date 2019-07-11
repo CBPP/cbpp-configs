@@ -22,7 +22,7 @@
 	<icon>terminator</icon>
 	<name>Open root terminal here</name>
 	<unique-id>1557619282803856-3</unique-id>
-	<command>gksudo terminator --working-directory %f</command>
+	<command>cbpp-gksudo terminator --working-directory %f</command>
 	<description></description>
 	<patterns>*</patterns>
 	<directories/>
@@ -31,7 +31,7 @@
 	<icon>file-manager</icon>
 	<name>Open as root</name>
 	<unique-id>1557619282803861-4</unique-id>
-	<command>gksudo thunar %f</command>
+	<command>cbpp-gksudo thunar %f</command>
 	<description>Open directory as root</description>
 	<patterns>*</patterns>
 	<directories/>
@@ -40,7 +40,7 @@
 	<icon>geany</icon>
 	<name>Open as root</name>
 	<unique-id>1557619282803867-5</unique-id>
-	<command>gksudo geany %f</command>
+	<command>cbpp-gksudo geany %f</command>
 	<description>Open text file as root</description>
 	<patterns>*</patterns>
 	<text-files/>
