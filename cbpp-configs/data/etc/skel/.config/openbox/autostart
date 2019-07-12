@@ -44,11 +44,6 @@ xfce4-power-manager &
 ## Start Thunar Daemon
 thunar --daemon &
 
-## Detect and configure touchpad. See 'man synclient' for more info.
-if egrep -iq 'touchpad' /proc/bus/input/devices; then
-    synclient VertEdgeScroll=1 TapButton1=1 &
-fi
-
 ## Start xscreensaver
 xscreensaver -no-splash &
 
