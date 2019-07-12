@@ -1,3 +1,10 @@
+cbpp-configs (10.2) unstable; urgency=low
+
+  * Drop /etc/skel/.profile
+  * Drop /etc/profile.d
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Fri, 12 Jul 2019 11:03:43 -0800
+
 cbpp-configs (10.1) unstable; urgency=low
 
   * Fix gksudo
