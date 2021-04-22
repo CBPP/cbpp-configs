@@ -36,7 +36,7 @@ tint2 &
 nm-applet &
 
 ## Volume keys daemon
-mate-volume-control-applet &
+mate-volume-control-status-icon &
 
 ## Enable power management
 xfce4-power-manager &
@@ -48,7 +48,7 @@ thunar --daemon &
 xscreensaver -no-splash &
 
 ## Start Clipboard manager
-(sleep 3s && clipit) &
+(sleep 3s && parcellite) &
 
 ## Set keyboard settings - 250 ms delay and 25 cps (characters per second) repeat rate.
 ## Adjust the values according to your preferances.

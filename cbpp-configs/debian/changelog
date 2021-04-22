@@ -1,3 +1,12 @@
+cbpp-configs (11.0) unstable; urgency=low
+
+  * Fixed mate-volume-control systray autostart
+  * Converted conkyrc to new format
+  * Replace clipit with parcellite
+  * Have the systray power manager control dpms
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Wed, 21 Apr 2021 16:57:43 -0800
+
 cbpp-configs (10.2) unstable; urgency=low
 
   * Drop /etc/skel/.profile
