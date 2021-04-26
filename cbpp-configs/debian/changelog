@@ -4,6 +4,8 @@ cbpp-configs (11.0) unstable; urgency=low
   * Converted conkyrc to new format
   * Replace clipit with parcellite
   * Have the systray power manager control dpms
+  * Terminator -- set bold_is_bright
+  * Openbox -- menu.xml parsed/formatted
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Wed, 21 Apr 2021 16:57:43 -0800
 
