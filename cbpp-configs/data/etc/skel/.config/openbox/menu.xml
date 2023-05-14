@@ -151,8 +151,6 @@
       </item>
       <menu execute="cbpp-remote-desktop-pipemenu" id="remotedesktop" label="Remote Desktop" />
       <menu execute="cbpp-sshconfig-pipemenu" id="sshconfig" label="SSH" />
-      <separator label="Services" />
-      <menu execute="cbpp-dropbox-pipemenu" id="dropbox" label="Dropbox" />
     </menu>
     <menu id="office" label="Office">
       <menu execute="cbpp-libreoffice-pipemenu" id="libreoffice" label="LibreOffice" />
