@@ -3,6 +3,7 @@ cbpp-configs (12.0) unstable; urgency=low
   * Dropbox -- remove pipemenu
   * pbuilder -- update distro reference
   * back to mate-power-manager
+  * added xfce4 helper file
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 14 May 2023 16:57:43 -0800
 
