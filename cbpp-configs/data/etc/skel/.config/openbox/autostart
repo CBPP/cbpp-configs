@@ -67,3 +67,6 @@ xset b off &
 
 ## Run the conky
 conky -q &
+
+## Hacks for notifyd since it switched to systemd
+/usr/lib/*/xfce4/notifyd/xfce4-notifyd &
