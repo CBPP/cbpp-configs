@@ -340,7 +340,7 @@
       </item>
       <item label="Choose Wallpaper">
         <action name="Execute">
-          <execute>nitrogen ~/images/wallpapers/</execute>
+          <execute>nitrogen</execute>
         </action>
       </item>
     </menu>

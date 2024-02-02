@@ -1,3 +1,10 @@
+cbpp-configs (12.1) unstable; urgency=low
+
+  * Chrome -- remove First Run (thanks @Alex313031)
+  * nitrogen -- don't ignore user's settings (thanks @corey851)
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Thu, 01 Feb 2024 19:37:43 -0800
+
 cbpp-configs (12.0) unstable; urgency=low
 
   * Dropbox -- remove pipemenu
