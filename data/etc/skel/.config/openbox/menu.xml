@@ -149,7 +149,6 @@
           <execute>gigolo</execute>
         </action>
       </item>
-      <menu execute="cbpp-remote-desktop-pipemenu" id="remotedesktop" label="Remote Desktop" />
       <menu execute="cbpp-sshconfig-pipemenu" id="sshconfig" label="SSH" />
     </menu>
     <menu id="office" label="Office">
@@ -333,6 +332,7 @@
           <execute>mate-power-preferences</execute>
         </action>
       </item>
+      <menu execute="cbpp-power-pipemenu" id="PowerPipeMenu" label="Power Profiles" />
       <item label="Screensaver">
         <action name="Execute">
           <execute>xscreensaver-demo</execute>

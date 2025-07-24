@@ -1,6 +1,8 @@
 cbpp-configs (13.0) unstable; urgency=low
 
   * Version bump
+  * Removing VNC menu item
+  * Power profiles pipemenu
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 08 Jun 2025 13:10:43 -0800
 
